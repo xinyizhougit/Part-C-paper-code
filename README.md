@@ -123,6 +123,8 @@ We don't have permission to share the EXO dataset;
 Similar datasets are available on request;
 
 To make the paper more reproducible, we’ve organized and released the code.
+The code is organized into separate modules: data_processing.py handles data preprocessing; graph_construction.py constructs the graphs; parameters.py manages configuration and survey-based parameter calibration; model.py implements the model architecture; training.py handles training and hyperparameter grid search; main.py serves as the main entry point; indicators.py computes evaluation metrics; experiments.py manages repeated experiments, paired statistical tests, and inference timing; data_audit.py checks dataset statistics across all regions; and smoke_test.py and test_case_protocol.py provide implementation and experimental protocol checks.
+
 
 The final results for all regions can be found.
 
