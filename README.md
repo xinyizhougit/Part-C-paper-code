@@ -1,11 +1,3 @@
-We don't have permission to share the EXO dataset;
-Similar datasets are available on request;
-Because of the dataset's privacy, the code isn't complete;
-
-To make the paper more reproducible, we’ve organized and released four parts of the code.
-
-The final results for all regions can be found.
-
 Here are other models' code:
 
 STG-Mamba: https://github.com/LincanLi-X/STG-Mamba 
@@ -126,5 +118,13 @@ search_space = {
     "learning_rate": trial.suggest_categorical("learning_rate", [1e-4, 3e-4, 5e-4, 7e-4, 1e-3]),
     "drop_rate": trial.suggest_categorical("drop_rate", [0.1, 0.15, 0.2, 0.25, 0.3])
 }
+
+We don't have permission to share the EXO dataset;
+Similar datasets are available on request;
+Because of the dataset's privacy, the code isn't complete;
+
+To make the paper more reproducible, we’ve organized and released four parts of the code.
+
+The final results for all regions can be found.
 
 If you have any problem, please send email to xinyizhou0318@gmail.com
